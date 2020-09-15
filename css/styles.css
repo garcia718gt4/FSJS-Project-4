@@ -124,6 +124,18 @@ button {
 
 /* Keyboard */
 
+.key {
+  transition: transform .4;
+  
+}
+
+.key:hover{ 
+  transform: scale(.91);
+  border: 1px solid black;
+  box-shadow: 1px 1px 5px #9c9c9c;
+}
+
+
 .keyrow {
   display: flex;
   justify-content: center;
