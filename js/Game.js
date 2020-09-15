@@ -57,8 +57,7 @@ class Game {
 
         // Remove the 'chosen' and 'wrong' classes from the selected letter keyboard buttons
         const keys = document.querySelectorAll('.key');
-        keys.forEach(key => key.classList.remove('chosen'));
-        keys.forEach(key => key.classList.remove('wrong'));
+        keys.forEach(key => key.classList.remove('chosen', 'wrong'));
 
         // Reset the live hearts
         const hearts = document.querySelectorAll('#scoreboard img'); 
